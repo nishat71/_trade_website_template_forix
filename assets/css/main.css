@@ -1,0 +1,1773 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url("../font/Apercu\ Regular.woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url("../font/Apercu\ Medium.woff");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url("../font/Apercu\ Pro\ Bold.woff");
+    font-weight: 700;
+}
+
+html {
+    padding: 0px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+body {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-toggler:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a,
+button {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+svg {
+    transition: .3s all ease;
+}
+
+figure {
+    margin: 0;
+}
+
+._toggler {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+/*----------------
+header-nav start 
+------------------*/
+._forix_trade_header_wrapper {
+    position: relative;
+}
+
+._forix_trade_header_shape {
+    position: absolute;
+    content: "";
+    background: var(--bg2);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 900px;
+    z-index: -1;
+}
+
+._forix_trade_header_nav_wrapper {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--color6) !important;
+}
+
+._forix_trade_header_nav_wrapper_list {
+    margin: 0 auto 0 60px;
+    gap: 40px;
+}
+
+._forix_trade_header_nav_wrapper_item_link {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color3) !important;
+    transition: .2s all ease;
+}
+
+._forix_trade_header_nav_wrapper_item_link:hover {
+    color: var(--color2) !important;
+}
+
+._forix_trade_header_nav_form_btn {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+._forix_trade_header_nav_Signin_link {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color3) !important;
+    transition: .2s all ease;
+}
+
+._forix_trade_header_nav_Signin_link:hover {
+    color: var(--color2) !important;
+}
+
+._forix_trade_header_nav_btn_link {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color5) !important;
+    padding: 0 17px;
+    background: var(--bg1) !important;
+    border-radius: 4px;
+    height: 48px;
+    transition: .2s all ease;
+}
+
+._forix_trade_header_nav_btn_link:hover {
+    background: transparent !important;
+    color: var(--color4) !important;
+    border: 1px solid var(--color6) !important;
+}
+
+/*---------------------------
+Forix Trade herosection start
+-----------------------------*/
+._forix_trade_header_wrap {
+    padding: 96px 0 0;
+}
+
+._forix_trade_hero_title {
+    font-family: 'Apercu';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.2;
+    color: var(--color4) !important;
+    max-width: 90%;
+    margin: 0 0 32px;
+}
+
+._forix_trade_hero_list_item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 16px;
+}
+
+._forix_trade_hero_list_item_span {
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid var(--color3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+._forix_trade_hero_list_item_txt {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color3);
+}
+
+._forix_trade_hero_btn_cont {
+    margin: 12px 0 20px;
+}
+
+._forix_trade_hero_btn {
+    padding: 0 38px;
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    border-radius: 6px;
+    height: 52px;
+}
+
+._forix_hero_btn_1 {
+    background-color: var(--bg1) !important;
+    color: var(--color5) !important;
+    border: 2px solid transparent !important;
+    margin: 0 20px 0 0;
+    transition: .2s all ease;
+}
+
+._forix_hero_btn_1:hover {
+    color: var(--color4) !important;
+    border: 2px solid var(--color6) !important;
+    background-color: transparent !important;
+}
+
+._forix_hero_btn_2 {
+    color: var(--color4) !important;
+    border: 2px solid var(--color6) !important;
+    background-color: transparent;
+    transition: .2s all ease;
+}
+
+._forix_hero_btn_2:hover {
+    background-color: var(--bg1) !important;
+    color: var(--color5) !important;
+    border: 2px solid transparent !important;
+}
+
+._forix_trade_hero_btm_para {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--color3);
+}
+
+._forix_trade_hero_right_cont {
+    display: flex;
+}
+
+._forix_trade_hero_right_bg_img_2 {
+    padding: 48px 0 0;
+}
+
+._forix_trade_header_btm_wrap {
+    padding: 110px 0 70px;
+    border-bottom: 1px solid var(--color6);
+}
+
+._forix_trade_header_btm_title {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--color4);
+}
+
+._forix_trade_header_btm_ratings_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+._forix_trade_header_btm_ratings_list {
+    display: flex;
+    gap: 3px;
+}
+
+._forix_trade_header_btm_ratings_info_cont {
+    display: flex;
+    align-items: flex-end;
+    margin: 3px 0 0;
+}
+
+._forix_trade_header_btm_ratings_info_span {
+    margin: 0 7px 0 0;
+}
+
+._forix_trade_header_btm_ratings_info_para {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--color3);
+}
+
+/*---------------------------
+Forix Trade features 1 start
+-----------------------------*/
+._forix_trade_features_1_wrapper {
+    padding: 80px 0 100px;
+}
+
+._forix_trade_features_1_top_cont {
+    margin: 0 0 104px;
+}
+
+._forix_trade_features_1_top_title {
+    font-family: 'Apercu';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color4);
+}
+
+._forix_trade_features_1_card {
+    display: flex;
+    align-items: center;
+    /* padding: 0 0 33px 62px; */
+    padding: 0 0 33px 80px;
+}
+
+._card_1_border {
+    margin: 0 0 40px;
+    position: relative;
+}
+
+._card_1_border::before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 221px;
+    border: 1px solid var(--color6);
+    background-color: var(--color6);
+    right: -11px;
+    top: -52px;
+}
+
+._card_1_border::after {
+    position: absolute;
+    content: "";
+    width: 568px;
+    height: 1px;
+    border: 1px solid var(--color6);
+    background-color: var(--color6);
+    left: 60px;
+    bottom: 0;
+}
+
+._card_2_border {
+    margin: 0 0 40px;
+    position: relative;
+}
+
+._card_2_border::after {
+    position: absolute;
+    content: "";
+    width: 568px;
+    height: 1px;
+    border: 1px solid var(--color6);
+    background-color: var(--color6);
+    right: 65px;
+    bottom: 0;
+}
+
+._card_3_border {
+    position: relative;
+}
+
+._card_3_border::before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 221px;
+    border: 1px solid var(--color6);
+    background-color: var(--color6);
+    right: 0;
+    top: -24px;
+}
+
+._forix_trade_features_1_card_details {
+    margin: 0 0 0 44px;
+}
+
+._forix_trade_features_1_card_title {
+    font-family: 'Apercu';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.2;
+    color: var(--color4);
+    margin: 0 0 22px;
+}
+
+._forix_trade_features_1_card_para {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color3);
+    max-width: 67%;
+    margin: 0 0 16px;
+}
+
+._forix_trade_features_1_card_link_btn {
+    display: inline-block;
+}
+
+._forix_trade_features_1_card_link {
+    font-family: 'Apercu';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--color4) !important;
+    position: relative;
+    transition: .2s all ease;
+}
+
+._forix_trade_features_1_card_link::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 80%;
+    left: 0;
+    bottom: -9px;
+    background-color: var(--color4);
+    transition: .2s all ease;
+}
+
+._forix_trade_features_1_card_link_span {
+    margin: 0 0 0 8px;
+}
+
+._forix_trade_features_1_card_link:hover::before {
+    width: 0;
+    height: 1px;
+}
+
+
+/*---------------------------
+Forix Trade features 2 start
+-----------------------------*/
+._forix_trade_features_2_wrapper {
+    background-color: var(--bg2);
+    padding: 80px 0;
+}
+
+._forix_trade_features_2_top_cont {
+    margin: 0 0 64px;
+}
+
+._forix_trade_features_2_top_title {
+    font-family: 'Apercu';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color4);
+}
+
+._forix_trade_features_2_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+._forix_trade_features_2_card_title {
+    margin: 20px 0 12px;
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color4);
+    max-width: 50%;
+}
+
+._forix_trade_features_2_card_para {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--color3);
+    max-width: 88%;
+}
+
+/*---------------------------
+Forix Trade features 3 start
+-----------------------------*/
+._forix_trade_features_3_wrapper {
+    padding: 80px 0;
+}
+
+._forix_trade_features_3_left_img_1 {
+    max-width: 254px;
+}
+
+._forix_trade_features_3_left_cont {
+    position: relative;
+    padding: 0 0 0 50px;
+}
+
+._forix_trade_features_3_left_bg_img_2 {
+    position: absolute;
+    content: "";
+    max-width: 328px;
+    left: 169px;
+    bottom: -133px;
+}
+
+._forix_trade_features_3_right_title {
+    font-family: 'Apercu';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    color: var(--color4);
+    max-width: 70%;
+    margin: 0 0 32px;
+}
+
+._forix_trade_features_3_btn {
+    margin: 72px 0 0;
+    display: inline-block;
+}
+
+._forix_trade_features_3_btn_link {
+    height: 54px;
+    padding: 0 24px;
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    background: var(--bg1) !important;
+    color: var(--color5) !important;
+    transition: .2s all ease;
+
+}
+
+._forix_trade_features_3_btn_link:hover {
+    background: transparent !important;
+    color: var(--color4) !important;
+    border: 1px solid var(--color6) !important;
+}
+
+._forix_trade_features_3_list_item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 16px;
+}
+
+._forix_trade_features_3_list_item_span {
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid var(--color3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+._forix_trade_features_3_list_item_txt {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color3);
+}
+
+/*---------------------------
+Forix Trade features 4 start
+-----------------------------*/
+._forix_trade_features_4_wrapper {
+    padding: 64px 0 10px;
+    background-color: var(--bg2);
+}
+
+._forix_trade_features_4_right_cont {
+    display: flex;
+}
+
+._forix_trade_features_4_left_cont {
+    padding: 0 0 0 50px;
+}
+
+._forix_trade_features_4_right_bg_img_2 {
+    padding: 90px 0 0;
+}
+
+._forix_trade_features_4_left_title {
+    font-family: 'Apercu';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    color: var(--color4);
+    max-width: 67%;
+    margin: 0 0 32px;
+}
+
+._forix_trade_features_4_left_para {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--color3);
+    max-width: 57%;
+    margin: 0 0 48px;
+}
+
+._forix_trade_features_4_btn {
+    display: inline-block;
+}
+
+._forix_trade_features_4_btn_link {
+    height: 52px;
+    background: var(--bg1) !important;
+    border-radius: 6px;
+    padding: 0 38px;
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color5) !important;
+    transition: .2s all ease;
+}
+
+._forix_trade_features_4_btn_link:hover {
+    background: transparent !important;
+    color: var(--color4) !important;
+    border: 1px solid var(--color6) !important;
+}
+
+/*---------------------------
+Forix Trade features 5 start
+-----------------------------*/
+._forix_trade_features_5_wrapper {
+    padding: 80px 0;
+}
+
+._forix_trade_features_5_left_cont {
+    padding: 0 50px 0 0;
+}
+
+._forix_trade_features_5_left_bg_img_1 {
+    margin: 0 0 24px;
+}
+
+._forix_trade_features_5_left_img_1 {
+    max-width: 344px;
+    margin-left: auto;
+}
+
+._forix_trade_features_5_card {
+    padding: 28px 39px 33px 32px;
+    background-color: var(--bg3);
+    display: flex;
+    align-items: center;
+    max-width: 454px;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+._forix_trade_features_5_card_txt_1 {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    color: var(--color7);
+    margin: 0 0 5px;
+}
+
+._forix_trade_features_5_card_txt_1_span {
+    margin: 0 0 0 9px;
+}
+
+._forix_trade_features_5_card_title {
+    font-family: 'Apercu';
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 1.2;
+    color: #1D1D1B;
+    margin: 0 0 12px;
+}
+
+._forix_trade_features_5_card_txt_2 {
+    font-family: 'Apercu';
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.2;
+    color: var(--color7);
+    display: flex;
+    align-items: center;
+}
+
+._card_txt_2_red {
+    color: var(--color8);
+}
+
+._forix_trade_features_5_card_txt_2_span {
+    margin: 0 8px 0 0;
+    width: 18px;
+    height: 18px;
+    background-color: var(--bg4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._forix_trade_features_5_right_cont {
+    padding: 0 0 0 80px;
+}
+
+._forix_trade_features_5_right_title {
+    font-family: 'Apercu';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    color: var(--color4);
+    max-width: 77%;
+    margin: 0 0 32px;
+}
+
+._forix_trade_features_5_para {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--color3);
+    max-width: 62%;
+    margin: 0 0 44px;
+}
+
+._forix_trade_features_5_btn {
+    display: inline-block;
+}
+
+._forix_trade_features_5_btn_link {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--color5) !important;
+    padding: 0 38px;
+    border-radius: 6px;
+    height: 52px;
+    background-color: var(--bg1) !important;
+    transition: .2s all ease;
+}
+
+._forix_trade_features_5_btn_link:hover {
+    background: transparent !important;
+    color: var(--color4) !important;
+    border: 1px solid var(--color6) !important;
+}
+
+/*---------------------------
+Forix Trade footer start
+-----------------------------*/
+._forix_trade_footer_wrapper {
+    padding: 80px 0 40px;
+}
+
+._forix_trade_footer_logo {
+    margin: 0 0 30px;
+}
+
+._forix_trade_footer_info_list {
+    margin: 0 0 58px;
+}
+
+._forix_trade_footer_info_list_item {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--color3);
+    max-width: 50%;
+}
+
+._forix_trade_footer_top_txt {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.2;
+    color: var(--color3);
+    display: flex;
+    align-items: center;
+}
+
+._forix_trade_footer_top_txt_span {
+    margin: 0 8px 0 0;
+}
+
+._forix_trade_footer_title {
+    font-family: 'Apercu';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--color4);
+    margin: 0 0 14px;
+}
+
+._forix_trade_footer_list_item {
+    margin: 0 0 8px;
+}
+
+._forix_trade_footer_list_item_link {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.2;
+    color: var(--color3) !important;
+    transition: .2s all ease;
+}
+
+._forix_trade_footer_list_item_link:hover {
+    color: var(--color2) !important;
+}
+
+._forix_trade_footer_middle_wrap {
+    padding: 134px 0 0;
+}
+
+._forix_trade_footer_middle_title {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color4);
+    margin: 0 0 20px;
+}
+
+._forix_trade_footer_middle_input_box {
+    width: fit-content;
+    position: relative;
+}
+
+._forix_trade_footer_middle_input {
+    width: 370px;
+    border: 0;
+    border-bottom: 1px solid var(--color4);
+    padding: 0px 25px 8px 0px;
+}
+
+::placeholder {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color4);
+    opacity: 0.3;
+}
+
+._forix_trade_footer_middle_input_span {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+}
+
+._forix_trade_footer_btm_wrap {
+    margin: 65px 0 0;
+}
+
+._forix_trade_social_link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+._forix_trade_social_link_ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+._forix_trade_footer_btm_list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+._forix_trade_footer_btm_list_item_link {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    color: var(--color3) !important;
+    transition: .2s all ease;
+}
+
+._forix_trade_footer_btm_list_item_link:hover {
+    color: var(--color2) !important;
+}
+
+._forix_trade_footer_btm_para {
+    font-family: 'Apercu';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--color3);
+    max-width: 90%;
+    margin: 25px 0 0;
+}
+
+@media (max-width: 1399px) {
+    ._forix_trade_header_nav_wrapper_list {
+        gap: 30px;
+    }
+
+    ._forix_trade_hero_title {
+        max-width: 100%;
+    }
+
+    ._forix_trade_hero_right_cont {
+        padding: 0 0 0 50px;
+    }
+
+    ._forix_trade_header_shape {
+        height: 749px;
+    }
+
+    ._forix_trade_features_1_card {
+        padding: 0 0 33px 62px;
+    }
+
+    ._forix_trade_features_1_card_para {
+        max-width: 72%;
+    }
+
+    ._card_2_border::after {
+        width: 530px;
+        right: 15px;
+    }
+
+    ._card_1_border::after {
+        width: 530px;
+        left: 10px;
+    }
+
+    ._forix_trade_features_2_card_para {
+        max-width: 100%;
+    }
+
+    ._forix_trade_features_3_right_title {
+        max-width: 80%;
+    }
+
+    ._forix_trade_features_4_left_para {
+        max-width: 67%;
+    }
+
+    ._forix_trade_features_5_right_title {
+        max-width: 90%;
+    }
+
+    ._forix_trade_features_5_para {
+        max-width: 75%;
+    }
+
+    ._forix_trade_footer_info_list_item {
+        max-width: 55%;
+    }
+
+    ._forix_trade_footer_btm_para {
+        font-size: 13px;
+        max-width: 97%;
+    }
+}
+
+@media (max-width:1199px) {
+    ._forix_trade_header_nav_wrapper_item_link {
+        font-size: 16px;
+    }
+
+    ._forix_trade_header_nav_wrapper_list {
+        gap: 30px;
+        margin: 0 auto;
+    }
+
+    ._forix_trade_header_nav_Signin_link {
+        font-size: 16px;
+    }
+
+    ._forix_trade_hero_title {
+        font-size: 45px;
+    }
+
+    ._forix_trade_header_shape {
+        height: 660px;
+    }
+
+    ._forix_trade_header_btm_ratings_info_para {
+        font-size: 13px;
+    }
+
+    ._forix_trade_features_1_card {
+        padding: 0 0 33px 40px;
+    }
+
+    ._forix_trade_features_1_top_title {
+        font-size: 30px;
+    }
+
+    ._forix_trade_features_1_card_para {
+        max-width: 87%;
+    }
+
+    ._card_1_border::before {
+        height: 200px;
+        top: -31px;
+    }
+
+    ._card_2_border::after {
+        width: 430px;
+        right: 17px;
+    }
+
+    ._card_1_border::after {
+        width: 430px;
+        left: 13px;
+    }
+
+    ._card_3_border::before {
+        height: 200px;
+        top: -20px;
+    }
+
+    ._forix_trade_features_2_top_title {
+        font-size: 35px;
+    }
+
+    ._forix_trade_features_2_card_title {
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    ._forix_trade_features_2_card_para {
+        font-size: 15px;
+    }
+
+    ._forix_trade_features_3_right_title {
+        max-width: 100%;
+        font-size: 30px;
+    }
+
+    ._forix_trade_features_3_right_cont {
+        padding: 0 0 0 50px;
+    }
+
+    ._forix_trade_features_3_list_item_txt {
+        font-size: 16px;
+    }
+
+    ._forix_trade_features_3_left_bg_img_2 {
+        max-width: 280px;
+        left: 114px;
+        bottom: -111px;
+    }
+
+    ._forix_trade_features_4_left_title {
+        font-size: 30px;
+        max-width: 81%;
+    }
+
+    ._forix_trade_features_4_left_para {
+        max-width: 75%;
+        font-size: 17px;
+    }
+
+    ._forix_trade_features_5_right_title {
+        max-width: 100%;
+        font-size: 30px;
+        margin: 0 0 25px;
+    }
+
+    ._forix_trade_features_5_para {
+        max-width: 100%;
+        font-size: 18px;
+    }
+
+    ._forix_trade_footer_info_list_item {
+        max-width: 70%;
+    }
+
+    ._forix_trade_footer_middle_wrap {
+        padding: 100px 0 0;
+    }
+
+    ._forix_trade_footer_btm_para {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    ._forix_trade_header_nav_form_btn {
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px 0 0;
+    }
+
+    ._forix_trade_header_nav_wrapper_list {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ._forix_trade_header_nav_wrapper {
+        padding: 30px 0;
+    }
+
+    ._forix_trade_header_wrap {
+        padding: 70px 0 0;
+    }
+
+    ._forix_trade_hero_right_cont {
+        padding: 0;
+    }
+
+    ._forix_trade_hero_left_cont {
+        margin: 0 0 60px 0;
+    }
+
+    ._forix_trade_header_shape {
+        height: 1340px;
+    }
+
+    ._forix_trade_header_btm_left {
+        margin: 0 0 30px 0;
+    }
+
+    ._forix_trade_header_btm_title {
+        text-align: center;
+    }
+
+    ._card_1_border {
+        margin: 0 0 0;
+    }
+
+    ._card_1_border::before {
+        display: none;
+    }
+
+    ._card_1_border::after {
+        display: none;
+    }
+
+    ._card_2_border {
+        margin: 0 0 0;
+    }
+
+    ._card_2_border::after {
+        display: none;
+    }
+
+    ._card_3_border::before {
+        display: none;
+    }
+
+    ._forix_trade_features_1_card {
+        padding: 0 0 45px 0;
+    }
+
+    ._forix_trade_features_1_card_details {
+        margin: 0 0 0 30px;
+    }
+
+    ._forix_trade_features_1_card_img {
+        max-width: 60px;
+    }
+
+    ._forix_trade_features_1_card_title {
+        font-size: 20px;
+        margin: 0 0 15px;
+    }
+
+    ._forix_trade_features_1_card_para {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    ._forix_trade_features_1_top_cont {
+        margin: 0 0 60px;
+    }
+
+    ._forix_trade_features_1_wrapper {
+        padding: 80px 0 50px;
+    }
+
+    ._forix_trade_features_2_wrapper {
+        padding: 50px 0;
+    }
+
+    ._forix_trade_features_2_card {
+        margin: 0 0 30px;
+    }
+
+    ._forix_trade_features_2_top_cont {
+        margin: 0 0 40px;
+    }
+
+    ._forix_trade_features_3_right_title {
+        font-size: 28px;
+        margin: 0 0 20px;
+    }
+
+    ._forix_trade_features_3_left_cont {
+        padding: 0;
+    }
+
+    ._forix_trade_features_3_left_bg_img_2 {
+        left: 60px;
+    }
+
+    ._forix_trade_features_3_btn {
+        margin: 30px 0 0;
+    }
+
+    ._forix_trade_features_4_left_title {
+        font-size: 28px;
+        margin: 0 0 20px;
+    }
+
+    ._forix_trade_features_4_left_para {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    ._forix_trade_features_4_left_cont {
+        padding: 0;
+    }
+
+    ._forix_trade_features_4_right_cont {
+        display: flex;
+        padding: 0 0 0 40px;
+    }
+
+    ._forix_trade_features_5_left_cont {
+        padding: 0;
+    }
+
+    ._forix_trade_features_5_right_title {
+        font-size: 24px;
+        margin: 0 0 20px;
+    }
+
+    ._forix_trade_features_5_para {
+        font-size: 16px;
+        margin: 0 0 30px;
+    }
+
+    ._forix_trade_features_5_left_img_1 {
+        margin: auto;
+    }
+
+    ._forix_trade_features_5_card {
+        margin: auto;
+    }
+
+    ._forix_trade_features_5_wrapper {
+        padding: 80px 0 20px;
+    }
+
+    ._forix_trade_footer_wrapper {
+        padding: 50px 0 40px;
+    }
+
+    ._forix_trade_footer_info_list {
+        margin: 0 0 20px;
+    }
+
+    ._forix_trade_footer_top_txt {
+        margin: 0 0 50px;
+    }
+
+    ._forix_trade_footer_middle_wrap {
+        padding: 50px 0 0;
+    }
+
+    ._forix_trade_social_link {
+        justify-content: flex-start;
+    }
+
+    ._forix_trade_footer_middle_input_box {
+        margin: 0 0 40px;
+    }
+
+    ._forix_trade_footer_btm_list {
+        padding: 40px 0 0;
+    }
+
+    ._forix_trade_footer_logo {
+        margin: 0 0 20px;
+    }
+
+    ._forix_trade_footer_btm_wrap {
+        margin: 0 0 0;
+    }
+
+    ._forix_trade_footer_logo_img {
+        max-width: 90px;
+    }
+}
+
+@media (max-width: 767px) {
+    ._forix_trade_header_shape {
+        height: 1090px;
+    }
+
+    ._forix_trade_header_nav_wrapper {
+        padding: 20px 0;
+    }
+
+    ._forix_trade_header_nav_btn_link {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    ._forix_trade_hero_btn {
+        height: 48px;
+        padding: 0 17px;
+        font-size: 15px;
+    }
+
+    ._forix_trade_header_wrap {
+        padding: 50px 0 0;
+    }
+
+    ._forix_trade_hero_title {
+        font-size: 30px;
+    }
+
+    ._forix_trade_hero_list_item_txt {
+        font-size: 16px;
+    }
+
+    ._forix_trade_hero_btn_cont {
+        margin: 35px 0 20px;
+    }
+
+    ._forix_trade_header_btm_wrap {
+        padding: 70px 0 0;
+    }
+
+    ._forix_trade_header_btm_ratings_card {
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 25px;
+    }
+
+    ._forix_trade_header_btm_left {
+        margin: 0 0 20px 0;
+    }
+
+    ._forix_trade_features_1_wrapper {
+        padding: 50px 0 30px;
+    }
+
+    ._forix_trade_features_1_card_img {
+        max-width: 50px;
+    }
+
+    ._forix_trade_features_1_top_title {
+        font-size: 26px;
+    }
+
+    ._forix_trade_features_1_card {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0 50px 0;
+    }
+
+    ._forix_trade_features_1_card_details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ._forix_trade_features_1_card_para {
+        font-size: 14px;
+        text-align: center;
+        margin: 0 0 8px;
+    }
+
+    ._forix_trade_features_1_card_details {
+        margin: 0 0 0;
+    }
+
+    ._forix_trade_features_1_card_title {
+        font-size: 18px;
+        margin: 20px 0 15px;
+    }
+
+    ._forix_trade_features_1_card_link {
+        font-size: 14px;
+    }
+
+    ._forix_trade_features_1_card_link_span svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    ._forix_trade_features_2_top_title {
+        font-size: 26px;
+    }
+
+    ._forix_trade_features_2_top_cont {
+        margin: 0 0 20px;
+    }
+
+    ._forix_trade_features_3_left_cont {
+        margin: 0 0 150px;
+    }
+
+    ._forix_trade_features_3_right_cont {
+        padding: 0;
+    }
+
+    ._forix_trade_features_3_left_bg_img_2 {
+        max-width: 280px;
+        left: 144px;
+        bottom: -107px;
+    }
+
+    ._forix_trade_features_3_wrapper {
+        padding: 50px 0;
+    }
+
+    ._forix_trade_features_3_right_title {
+        font-size: 24px;
+        margin: 0 0 25px;
+    }
+
+    ._forix_trade_features_3_btn_link {
+        height: 48px;
+        padding: 0 14px;
+        font-size: 15px;
+    }
+
+    ._forix_trade_features_4_left_title {
+        font-size: 24px;
+    }
+
+    ._forix_trade_features_4_left_para {
+        max-width: 75%;
+        font-size: 16px;
+        margin: 0 0 30px;
+    }
+
+    ._forix_trade_features_4_wrapper {
+        padding: 50px 0 10px;
+    }
+
+    ._forix_trade_features_4_btn_link {
+        height: 48px;
+        padding: 0 17px;
+        font-size: 15px;
+    }
+
+    ._forix_trade_features_4_left_cont {
+        margin: 0 0 60px;
+    }
+
+    ._forix_trade_features_4_right_cont {
+        padding: 0;
+    }
+
+    ._forix_trade_features_5_wrapper {
+        padding: 50px 0 20px;
+    }
+
+    ._forix_trade_features_5_right_cont {
+        padding:0;
+    }
+
+    ._forix_trade_features_5_right_title {
+        font-size: 26px;
+        margin: 0 0 20px;
+    }
+
+    ._forix_trade_features_5_para {
+        font-size: 16px;
+        margin: 0 0 30px;
+    }
+
+    ._forix_trade_features_5_btn_link {
+        height: 48px;
+        padding: 0 17px;
+        font-size: 15px;
+    }
+
+    ._forix_trade_features_5_left_img_1 {
+        margin: 0;
+    }
+
+    ._forix_trade_features_5_card {
+        margin: 0;
+    }
+
+    ._forix_trade_features_5_left_cont {
+        margin: 0 0 60px;
+    }
+
+    ._forix_trade_footer_logo_img {
+        max-width: 80px;
+    }
+
+    ._forix_trade_footer_middle_wrap {
+        padding: 0 0 0;
+    }
+    ._forix_trade_footer_ul {
+        margin: 0 0 50px;
+    }
+}
+
+@media (max-width: 575px) {
+    ._forix_trade_header_wrap {
+        padding: 30px 0 0;
+    }
+    ._forix_trade_header_shape {
+        height: 1070px;
+    }
+    ._forix_trade_hero_title {
+        margin: 0 0 20px;
+    }
+
+    ._forix_trade_hero_list_item_txt {
+        font-size: 14px;
+    }
+
+    ._forix_trade_hero_btn_cont {
+        margin: 20px 0 20px;
+    }
+
+    ._forix_trade_header_btm_title {
+        font-size: 20px;
+    }
+
+    ._forix_trade_header_btm_left {
+        margin: 0 0 20px 0;
+    }
+    ._forix_trade_features_1_top_cont {
+        margin: 0 0 30px;
+    }
+    ._forix_trade_features_1_top_title {
+        font-size: 23px;
+    }
+    ._forix_trade_features_1_card {
+        padding: 0 0 30px 0;
+    }
+    ._forix_trade_features_1_card_img {
+        max-width: 45px;
+    }
+    ._forix_trade_features_1_wrapper {
+        padding: 50px 0 10px;
+    }
+    ._forix_trade_features_2_top_title {
+        font-size: 24px;
+    }
+    ._forix_trade_features_3_list_item_txt {
+        font-size: 14px;
+    }
+
+    ._forix_trade_features_3_btn {
+        margin: 30px 0 0;
+    }
+
+    ._forix_trade_footer_wrapper {
+        padding: 50px 0 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    ._forix_trade_header_shape {
+        height: 915px;
+    }
+
+    ._forix_trade_header_btm_title {
+        font-size: 18px;
+    }
+
+    ._forix_trade_features_1_top_cont {
+        margin: 0 0 30px;
+    }
+
+    ._forix_trade_features_2_wrapper {
+        padding: 30px 0;
+    }
+
+    ._forix_trade_features_3_left_bg_img_2 {
+        max-width: 280px;
+        left: 141px;
+        bottom: -102px;
+    }
+
+    ._forix_trade_features_3_right_title {
+        font-size: 26px;
+        margin: 0 0 15px;
+    }
+
+    ._forix_trade_features_3_btn {
+        margin: 20px 0 0;
+    }
+
+    ._forix_trade_features_4_left_para {
+        font-size: 14px;
+        margin: 0 0 20px;
+        max-width: 100%;
+    }
+
+    ._forix_trade_features_5_card {
+        padding: 15px;
+    }
+
+    ._forix_trade_features_5_para {
+        font-size: 14px;
+        margin: 0 0 20px;
+    }
+
+    ._forix_trade_features_5_right_title {
+        font-size: 26px;
+        margin: 0 0 12px;
+    }
+
+    ._forix_trade_footer_info_list_item {
+        font-size: 16px;
+    }
+
+    ._forix_trade_footer_logo {
+        margin: 0 0 12px;
+    }
+
+    ._forix_trade_footer_middle_input_box {
+        margin: 0 0 30px;
+    }
+
+    ._forix_trade_footer_btm_list {
+        padding: 30px 0 0;
+    }
+}
+
+@media (max-width: 375px) {
+    ._forix_trade_hero_btm_para {
+        font-size: 13px;
+    }
+
+    ._forix_trade_hero_title {
+        font-size: 26px;
+    }
+
+    ._forix_trade_header_shape {
+        height: 860px;
+    }
+
+    ._forix_trade_features_1_wrapper {
+        padding: 30px 0 10px;
+    }
+    ._forix_trade_features_1_card_img {
+        max-width: 40px;
+    }
+    ._forix_trade_features_1_top_title {
+        font-size: 22px;
+    }
+
+    ._forix_trade_features_2_top_title {
+        font-size: 22px;
+    }
+
+    ._forix_trade_features_3_left_bg_img_2 {
+        left: 93px;
+        bottom: -102px;
+    }
+
+    ._forix_trade_features_3_right_title {
+        font-size: 22px;
+    }
+
+    ._forix_trade_features_4_wrapper {
+        padding: 30px 0 10px;
+    }
+
+    ._forix_trade_features_4_left_title {
+        font-size: 22px;
+        margin: 0 0 12px;
+    }
+
+    ._forix_trade_features_5_right_title {
+        font-size: 22px;
+    }
+
+    ._forix_trade_footer_logo_img {
+        max-width: 70px;
+    }
+
+    ._forix_trade_footer_middle_input {
+        width: 340px;
+    }
+
+    ._forix_trade_footer_btm_list {
+        gap: 15px;
+    }
+
+    ._forix_trade_footer_btm_list_item_link {
+        font-size: 13px;
+    }
+}
+
+/* variable */
+:root {
+    --color1: #FFFFFF;
+    --color2: #000000;
+    --color3: #6A6A6A;
+    --color4: #1D1D1B;
+    --color5: #F9F9F7;
+    --color6: #B8B8B5;
+    --color7: #9E9E9E;
+    --color8: #FF0000;
+    --bg1: #FA522D;
+    --bg2: #FDF8F7;
+    --bg3: #FAFAFA;
+    --bg4: #ff00001a;
+}
